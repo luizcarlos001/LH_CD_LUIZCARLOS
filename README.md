@@ -1,4 +1,4 @@
-# 🎬 LH_CD_LUIZCARLOS — Desafio Cientista de Dados (IMDB)
+# LH_CD_LUIZCARLOS — Desafio Cientista de Dados (IMDB)
 
 Este repositório contém a solução do **Desafio Cientista de Dados da Indicium**.  
 O objetivo é realizar uma **Análise Exploratória de Dados (EDA)**, responder a perguntas de negócio e treinar um **modelo preditivo** para estimar a nota do IMDB de filmes.  
@@ -56,8 +56,9 @@ pip install -r requirements.txt
 jupyter notebook notebooks/LH_CD_LUIZ_CARLOS_EDA_Model.ipynb
 
 
-📊 Conteúdo do Trabalho
-🔹 EDA (Análise Exploratória)
+### Conteúdo do Trabalho
+EDA (Análise Exploratória)
+---
 
 Distribuições de variáveis numéricas (notas, metascore, votos, receita).
 
@@ -67,7 +68,8 @@ Tendências temporais e comparações por gênero e certificado.
 
 Destaque de diretores e atores mais recorrentes.
 
-🔹 Hipóteses Investigadas
+### Hipóteses Investigadas
+---
 
 Popularidade (número de votos) influencia receita e percepção de qualidade.
 
@@ -77,7 +79,8 @@ Filmes muito longos ou muito curtos podem reduzir aceitação.
 
 O texto do Overview contém sinais que permitem inferir gênero.
 
-❓ Respostas às Perguntas do Desafio
+ ### Respostas às Perguntas do Desafio
+ ---
 
 Qual filme recomendar para uma pessoa desconhecida?
 Ranking imparcial por nota × alcance, resultando em um top 10 equilibrado.
@@ -103,7 +106,8 @@ Pontos fortes: lida bem com variáveis heterogêneas; pontos fracos: maior custo
 Caso “The Shawshank Redemption”:
 O modelo previu uma nota muito próxima da real, validando sua robustez.
 
-🤖 Modelo Final
+### Modelo Final
+---
 
 Algoritmo: HistGradientBoostingRegressor (scikit-learn).
 
@@ -123,7 +127,8 @@ Para recarregar o modelo:
 import joblib
 model = joblib.load("models/model_imdb.pkl")
 
-📦 Requisitos
+### Requisitos
+---
 
 As dependências estão listadas em requirements.txt:
 pandas>=2.0.0
@@ -133,7 +138,8 @@ matplotlib>=3.7.0
 joblib>=1.3.0
 jupyter>=1.0.0
 
-🧾 Observações
+### Observações
+---
 
 O relatório PDF deve ser gerado com o notebook executado (mostrando gráficos, tabelas e saídas).
 
