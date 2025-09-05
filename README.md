@@ -44,15 +44,15 @@ cd LH_CD_LUIZCARLOS
 
 # crie e ative o ambiente virtual
 python -m venv .venv
-# Windows:
+## Windows:
 .venv\Scripts\activate
-# Linux/Mac:
+## Linux/Mac:
 source .venv/bin/activate
 
-# instale dependências
+## instale dependências
 pip install -r requirements.txt
 
-# abra o notebook
+## abra o notebook
 jupyter notebook notebooks/LH_CD_LUIZ_CARLOS_EDA_Model.ipynb
 
 
